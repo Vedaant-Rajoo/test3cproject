@@ -10,16 +10,16 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 make: *** No rule to make target `all'.  Stop.
 
 
-# Make data base, printed on Wed Jul 13 11:46:34 2022
+# Make data base, printed on Wed Jul 13 13:47:19 2022
 
 # Variables
 
 # automatic
- 
 <D = $(patsubst %/,%,$(dir $<))
 # automatic
 ?F = $(notdir $?)
 # automatic
+ 
 ?D = $(patsubst %/,%,$(dir $?))
 # automatic
 @D = $(patsubst %/,%,$(dir $@))
@@ -38,9 +38,13 @@ MAKEFILE_LIST :=
 # environment
 __CFBundleIdentifier = com.microsoft.VSCode
 # environment
+INFOPATH = /opt/homebrew/share/info:
+# environment
 VSCODE_CWD = /
 # environment
-PATH = /usr/bin:/bin:/usr/sbin:/sbin
+PATH = /opt/homebrew/opt/openjdk/bin:/Users/newedia/adb-fastboot/platform-tools:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/homebrew/opt/ccache/libexec:/Library/TeX/texbin:/Library/Apple/usr/bin:/opt/homebrew/opt/fzf/bin
+# environment
+LSCOLORS = Gxfxcxdxbxegedabagacad
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # default
@@ -52,7 +56,11 @@ SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.x3LfQmcbCy/Listeners
 # environment
 PWD = /Users/newedia/Documents/GitHub/test3cproject
 # environment
+HOMEBREW_CELLAR = /opt/homebrew/Cellar
+# environment
 ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+MANPATH = /opt/homebrew/share/man::
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
@@ -65,6 +73,8 @@ VSCODE_CODE_CACHE_PATH = /Users/newedia/Library/Application Support/Code/CachedD
 LOGNAME = newedia
 # environment
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+ZSH = /Users/newedia/.oh-my-zsh
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # automatic
@@ -83,6 +93,8 @@ MAKE_VERSION := 3.81
 USER = newedia
 # makefile
 .DEFAULT_GOAL := 
+# environment
+LESS = -R
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
 # default
@@ -104,11 +116,15 @@ MFLAGS = -Rrqp
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
-XPC_SERVICE_NAME = application.com.microsoft.VSCode.21949085.21949091
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.22134742.22134748
+# environment
+HOMEBREW_PREFIX = /opt/homebrew
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
 # automatic
 +F = $(notdir $+)
+# environment
+HOMEBREW_REPOSITORY = /opt/homebrew
 # environment
 __CF_USER_TEXT_ENCODING = 0x1F5:0x0:0x0
 # environment
@@ -118,9 +134,10 @@ MAKEFILES :=
 # automatic
 <F = $(notdir $<)
 # environment
+PAGER = less
+# environment
 LC_ALL = C
 # automatic
- 
 ^F = $(notdir $^)
 # default
 SUFFIXES := 
@@ -131,9 +148,9 @@ MAKELEVEL := 0
 # environment
 LANG = C
 # environment
-VSCODE_PID = 1104
+VSCODE_PID = 22897
 # variable set hash-table stats:
-# Load=58/1024=6%, Rehash=0, Collisions=1/79=1%
+# Load=67/1024=7%, Rehash=0, Collisions=1/88=1%
 
 # Pattern-specific Variable Values
 
@@ -141,9 +158,9 @@ VSCODE_PID = 1104
 
 # Directories
 
-# . (device 16777232, inode 22114352): 8 files, no impossibilities.
+# . (device 16777232, inode 22114352): 10 files, no impossibilities.
 
-# 8 files, no impossibilities in 1 directories.
+# 10 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -215,6 +232,6 @@ GNUmakefile:
 # strcache size: total = 0 / max = 0 / min = 4096 / avg = 0
 # strcache free: total = 0 / max = 0 / min = 4096 / avg = 0
 
-# Finished Make data base on Wed Jul 13 11:46:34 2022
+# Finished Make data base on Wed Jul 13 13:47:19 2022
 
  

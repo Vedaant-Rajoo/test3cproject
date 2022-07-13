@@ -1,0 +1,1 @@
+int sumptr(int *a,int *b);
