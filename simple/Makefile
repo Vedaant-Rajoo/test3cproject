@@ -2,4 +2,4 @@
 all: program 
 
 program:
-	gcc -w program.c
+	@gcc -c -w program.c
